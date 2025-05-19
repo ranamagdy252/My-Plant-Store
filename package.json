@@ -2,11 +2,13 @@
   "name": "plant-store",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://ranamagdy252.github.io/My-Plant-Store"
+  "homepage": "https://ranamagdy252.github.io/My-Plant-Store",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
@@ -17,6 +19,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
+    "gh-pages": "^6.3.0",
     "vite": "^4.3.9"
   }
 }

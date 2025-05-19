@@ -2,6 +2,7 @@
   "name": "plant-store",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://ranamagdy252.github.io/My-Plant-Store"
   "scripts": {
     "dev": "vite",
     "build": "vite build",
